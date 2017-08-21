@@ -1,0 +1,36 @@
+.box-set:before,
+.box-set:after {
+  content: "";
+  display: table;
+}
+.box-set:after {
+  clear: both;
+}
+
+.box-set{
+height:200px;;
+width:400px;;
+background-color:#ccc;
+position:absolute;
+left:50%;
+top:50%;
+transform: translateX(-50%) translateY(-50%);
+}
+.sector-1{
+width: 50px;
+height: 50px;
+background-color: yellow;
+border-radius: 100px 0 0;
+transform:rotate(180deg);
+}
+.sector-2{
+width: 50px;
+height: 50px;
+background-color: yellow;
+border-radius: 100px 0 0;
+position:absolute;
+left:350px;
+bottom:0px;
+}
+
+
