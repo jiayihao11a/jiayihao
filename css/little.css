@@ -1,0 +1,130 @@
+
+.box-set{
+height:200px;;
+width:400px;;
+position:absolute;
+left:50%;
+top:50%;
+transform: translateX(-50%) translateY(-50%);
+}
+.tu{
+z-index:1;
+height:200px;
+width:400px;
+animation:myfirst 6s infinite;
+animation-direction:alternate;
+} 
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%{-webkit-filter: blur(0px);}
+33%{-webkit-filter: blur(0px);}
+66%{-webkit-filter: blur(3px);}
+100%{-webkit-filter: blur(3px);}
+}
+.zi{
+position:absolute;
+left:100px;
+top:100px;
+z-index:2;
+opacity:1;
+/*animation:thir 6s infinite;
+animation-direction:alternate;*/
+background-image: -webkit-linear-gradient(left,#D81159, #E53A40 10%, #FFBC42 20%, #75D701 30%, #30A9DE 40%,#D81159 50%, #E53A40 60%, #FFBC42 70%, #75D701 80%, #30A9DE 90%,#D81159);
+-webkit-background-clip: text;
+color:transparent;
+background-size: 200% 100%;
+animation: flowlight 6s linear infinite;
+}
+@keyframes flowlight {
+0% {background-position: 0 0;
+opacity:0;}
+33% {background-position: 0 0;
+opacity:0;}
+66% {background-position: -100% 0;
+opacity:1;}
+100% {background-position: -100% 0;
+opacity:1;}
+}
+/*
+@-webkit-keyframes thir  
+{
+0%   {opacity:0;}
+33%   {opacity:0;}
+66%   {opacity:1;}
+100% {opacity:1;}
+}
+*/
+.line-1{
+width:240px;
+position:absolute;
+left:60px;
+top:20px;
+text-align:center;}
+.line-1-1{
+border:0;
+width:200px;
+height:3px;
+background-color:#FFFFFF;
+animation:second 6s infinite;
+animation-direction:alternate;}
+.line-1-2{
+border:0;
+width:200px;
+height:3px;
+background-color:#FFFFFF;
+margin-top:140px;
+animation:second 6s infinite;
+animation-direction:alternate;}
+
+
+@-webkit-keyframes second /* Safari and Chrome */
+{
+0%   {width:0px;}
+33%   {width:0px;}
+66%   {width:200px;}
+100% {width:200px;}
+}
+.line-2{
+height:180px;
+width:200px;
+position:absolute;
+display:table;
+left:78px;
+top:10px;
+text-align:center;}
+.line-0{
+display:table-cell; 
+vertical-align:middle;
+}
+.line-0-1{
+display:table-cell; 
+vertical-align:middle;
+margin-left:400px;
+}
+.line-2-1{
+border:0;
+width:3px;
+height:140px;
+margin-left:0px;
+float:left;
+background-color:#FFFFFF;
+animation:four 6s infinite;
+animation-direction:alternate;
+}
+.line-2-2{
+border:0;
+width:3px;
+height:140px;
+margin-left:200px;
+float:left;
+background-color:#FFFFFF;
+animation:four 6s infinite;
+animation-direction:alternate;
+}
+@-webkit-keyframes four /* Safari and Chrome */
+{
+0%   {height:0px;}
+33%   {height:0px;}
+66%   {height:140px;}
+100% {height:140px;}
+}

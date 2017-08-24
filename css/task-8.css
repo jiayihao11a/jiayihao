@@ -1,0 +1,22 @@
+body{
+padding:0px;
+margin:0px;}
+.row-1{
+height:50px;
+background-color:#0066FF;}
+.row-1-1{
+float:left;
+margin-left:20px;
+margin-top:16px;
+color:#FFFFFF;}
+.row-1-2{
+float:left;
+margin-left:60px;
+color:#FFFFFF;}
+.row-2{
+padding:0px;}
+.row-2 li{
+list-style:none;
+float:left;
+margin-left:20px;
+border-bottom:solid 1px #0033FF;}
