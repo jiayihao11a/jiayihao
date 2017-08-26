@@ -1,0 +1,42 @@
+.container-fluid{
+				background-color:#DCDCDC; 
+}
+.list-group-item{
+                 color:#DCDCDC;
+				 background-color:#000;
+}
+.panel-title{
+			 color:#DCDCDC;	
+			 background-color:#000;
+}
+.panel-body{
+			color:#DCDCDC;
+			background-color:#000;
+}
+.table{
+	   color:#DCDCDC;
+	   background-color:#000;
+}
+.col-md-7{  
+      margin-top: 0px;  
+      margin-bottom: 0px;
+	    
+}  
+.thumbnail{
+		   height:125px;width:100px;
+		   margin-bottom: 0px;
+}
+.navbar{
+    	margin-bottom: 0px;
+}
+.panel{
+			margin-bottom: 0px;
+}
+ul.list-group{
+margin-bottom: 0px
+}
+.table{
+margin-bottom: 0px
+}
+
+
